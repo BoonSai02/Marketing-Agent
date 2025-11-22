@@ -1,0 +1,199 @@
+.chat-message {
+    display: flex;
+    gap: var(--spacing-md);
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    animation: slideIn 0.3s ease-out;
+}
+
+.user-message {
+    flex-direction: row-reverse;
+}
+
+.message-avatar {
+    flex-shrink: 0;
+    margin-top: var(--spacing-xs);
+}
+
+.avatar-user,
+.avatar-ai {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    box-shadow: var(--shadow-sm);
+}
+
+.avatar-user {
+    background: var(--gradient-primary);
+    color: white;
+}
+
+.avatar-ai {
+    background: var(--gradient-secondary);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.message-content {
+    flex: 1;
+    max-width: 80%;
+}
+
+.message-text {
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    box-shadow: var(--shadow-sm);
+}
+
+.user-message .message-text {
+    background: var(--color-primary);
+    color: white;
+    border-bottom-right-radius: var(--radius-xs);
+}
+
+.ai-message .message-text {
+    background: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
+    border-bottom-left-radius: var(--radius-xs);
+}
+
+/* Markdown Content Styles */
+.markdown-content {
+    font-size: var(--font-size-base);
+}
+
+.markdown-content p {
+    margin-bottom: var(--spacing-md);
+    line-height: 1.7;
+}
+
+.markdown-content p:last-child {
+    margin-bottom: 0;
+}
+
+.markdown-content strong {
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.markdown-content em {
+    font-style: italic;
+    color: var(--color-text-secondary);
+}
+
+.markdown-content a {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all var(--transition-fast);
+}
+
+.markdown-content a:hover {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    margin: var(--spacing-md) 0;
+    padding-left: var(--spacing-xl);
+}
+
+.markdown-content li {
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.7;
+}
+
+.markdown-content code {
+    padding: 0.2em 0.4em;
+    background: var(--color-bg-tertiary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+    color: var(--color-accent-light);
+}
+
+.markdown-content pre {
+    margin: var(--spacing-md) 0;
+    padding: var(--spacing-md);
+    background: var(--color-bg-tertiary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    overflow-x: auto;
+}
+
+.markdown-content pre code {
+    padding: 0;
+    background: transparent;
+    border: none;
+    font-size: var(--font-size-sm);
+}
+
+.markdown-content blockquote {
+    margin: var(--spacing-md) 0;
+    padding-left: var(--spacing-lg);
+    border-left: 3px solid var(--color-primary);
+    color: var(--color-text-tertiary);
+    font-style: italic;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-primary);
+}
+
+.markdown-content h1 {
+    font-size: var(--font-size-2xl);
+}
+
+.markdown-content h2 {
+    font-size: var(--font-size-xl);
+}
+
+.markdown-content h3 {
+    font-size: var(--font-size-lg);
+}
+
+.markdown-content hr {
+    margin: var(--spacing-lg) 0;
+    border: none;
+    border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 768px) {
+    .chat-message {
+        padding: 0 var(--spacing-md);
+    }
+
+    .message-content {
+        max-width: 90%;
+    }
+
+    .avatar-user,
+    .avatar-ai {
+        width: 32px;
+        height: 32px;
+    }
+
+    .markdown-content {
+        font-size: var(--font-size-sm);
+    }
+}
