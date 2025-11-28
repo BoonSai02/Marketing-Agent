@@ -1,0 +1,130 @@
+.thinking-block {
+    background-color: var(--color-bg-tertiary);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-md);
+    border: 1px solid var(--color-border);
+    overflow: hidden;
+    font-family: var(--font-family);
+    max-width: 100%;
+}
+
+.thinking-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    cursor: pointer;
+    user-select: none;
+    background-color: var(--color-bg-secondary);
+    transition: background-color var(--transition-fast);
+}
+
+.thinking-header:hover {
+    background-color: var(--color-bg-glass-hover);
+}
+
+.thinking-title {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
+.thinking-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+}
+
+.thinking-icon.done {
+    color: var(--color-success);
+}
+
+.thinking-icon.thinking-spinner {
+    animation: spin 1s linear infinite;
+    color: var(--color-text-tertiary);
+}
+
+.thinking-chevron {
+    font-size: 0.8rem;
+    color: var(--color-text-tertiary);
+    transition: transform 0.3s ease;
+}
+
+.thinking-chevron.open {
+    transform: rotate(180deg);
+}
+
+.thinking-content {
+    padding: var(--spacing-md);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.thinking-step {
+    display: flex;
+    gap: var(--spacing-sm);
+    align-items: flex-start;
+}
+
+.step-line {
+    color: var(--color-border);
+    font-weight: 300;
+}
+
+.step-text {
+    line-height: 1.5;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pulse {
+    animation: pulseText 1.5s infinite;
+}
+
+@keyframes pulseText {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}

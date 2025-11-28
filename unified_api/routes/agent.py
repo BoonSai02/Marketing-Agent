@@ -1,53 +1,80 @@
 from fastapi import APIRouter, HTTPException
+from fastapi.responses import StreamingResponse
 from langchain_core.messages import HumanMessage
 from agent_src.models import ChatRequest, ChatResponse
 from agent_src.graph import app as graph_app
 import uuid
 import logging
+import json
 
 router = APIRouter(prefix="/api/agent", tags=["AI Agent"])
 logger = logging.getLogger("agent.routes")
 
-@router.post("/chat", response_model=ChatResponse)
+@router.post("/chat")
 async def chat_endpoint(request: ChatRequest):
     """
-    Endpoint for chat interactions. Provides a session_id if not given, invokes the graph,
-    and returns the assistant's response. Sessions are persisted in Redis for continuity.
+    Endpoint to interact with the marketing agent.
     """
-    # Generate or use session_id as thread_id for persistence
-    session_id = request.session_id or uuid.uuid4()
-    config = {"configurable": {"thread_id": str(session_id)}}
+    session_id = request.session_id or str(uuid.uuid4())
+    logger.info(f"Starting chat session: {session_id}")
 
-    # Prepare inputs
-    inputs = {"messages": [HumanMessage(content=request.message)]}
+    config = {"configurable": {"thread_id": session_id}}
+    
+    # Create a generator to stream the response
+    async def event_generator():
+        try:
+            inputs = {"messages": [HumanMessage(content=request.message)]}
+            
+            # Stream events for granular progress
+            async for event in graph_app.astream_events(inputs, config, version="v1"):
+                kind = event["event"]
+                
+                # Log tool calls (Search)
+                if kind == "on_tool_start":
+                    tool_name = event["name"]
+                    if tool_name == "duckduckgo_search":
+                        query = event["data"].get("input", {}).get("query", "something")
+                        yield json.dumps({
+                            "session_id": str(session_id),
+                            "type": "progress",
+                            "content": f"Searching for: {query}"
+                        }) + "\n"
+                
+                # Log Custom Events (Deep Research Steps)
+                elif kind == "on_custom_event":
+                    event_name = event["name"]
+                    if event_name == "progress":
+                        data = event["data"]
+                        step = data.get("step", "Processing...")
+                        yield json.dumps({
+                            "session_id": str(session_id),
+                            "type": "progress",
+                            "content": step
+                        }) + "\n"
 
-    try:
-        # Stream the graph output (non-streaming for simplicity; can be adapted for SSE)
-        full_response = ""
-        for chunk in graph_app.stream(inputs, config, recursion_limit=100):
-            for node_name, output_value in chunk.items():
-                if output_value and "messages" in output_value and output_value["messages"]:
-                    content = output_value['messages'][-1].content
-                    if content:
-                        full_response += content + "\n\n"
+                # Log node output (Chat response)
+                elif kind == "on_chain_end":
+                    # We look for the final node output
+                    data = event["data"].get("output")
+                    if data and isinstance(data, dict) and "messages" in data and data["messages"]:
+                        last_message = data["messages"][-1]
+                        content = last_message.content
+                        node_name = event["name"]
+                        
+                        # Only yield if it's a significant node
+                        if node_name in ["manager", "gather_product", "process_more_info", "perform_deep_research", "write_report", "select_strategy", "guide_strategy", "check_satisfaction"]:
+                            yield json.dumps({
+                                "session_id": str(session_id),
+                                "response": content,
+                                "node": node_name
+                            }) + "\n"
+                        
+        except Exception as e:
+            logger.error(f"Error in chat session {session_id}: {e}", exc_info=True)
+            yield json.dumps({
+                "session_id": str(session_id),
+                "response": "I encountered an error. Please try again.",
+                "error": str(e)
+            }) + "\n"
 
-        if not full_response:
-            # It's possible the graph didn't generate new tokens if it was just a state update or similar,
-            # but usually it should return something.
-            # If it's empty, we might want to check the state or just return empty.
-            # For now, let's assume it's an error if completely empty, or maybe just return empty string.
-            pass 
-
-        # Check if session is complete (e.g., satisfaction=True or no next steps)
-        final_state = graph_app.get_state(config)
-        is_complete = bool(final_state.values.get("satisfaction", False)) or not final_state.next
-
-        return ChatResponse(
-            response=full_response.strip(),
-            session_id=session_id,
-            is_complete=is_complete
-        )
-
-    except Exception as e:
-        logger.error(f"Error processing chat: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Error processing chat: {str(e)}")
+    return StreamingResponse(event_generator(), media_type="application/x-ndjson")

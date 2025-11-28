@@ -1,0 +1,249 @@
+2025-11-27 19:34:31,916 - watchfiles.main - INFO - 3 changes detected
+2025-11-27 19:35:13,926 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:35:14,755 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 19:35:31,360 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:35:31,388 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:35:31,388 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:35:31,729 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:35:31,749 - agent.nodes - INFO - Input classified as: QUESTION
+2025-11-27 19:35:31,888 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:35:47,920 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:35:47,937 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:35:47,937 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:35:48,116 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:35:48,140 - agent.nodes - INFO - Input classified as: QUESTION
+2025-11-27 19:35:48,277 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:36:15,266 - agent.routes - INFO - Starting chat session: d316c371-7c36-4883-810f-c84b36e9dc48
+2025-11-27 19:36:15,298 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:36:15,298 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:36:15,438 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:36:15,459 - agent.nodes - INFO - Input classified as: QUESTION
+2025-11-27 19:36:15,579 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:37:20,445 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:37:21,030 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:37:21,773 - watchfiles.main - INFO - 3 changes detected
+2025-11-27 19:38:14,485 - agent.routes - INFO - Starting chat session: d316c371-7c36-4883-810f-c84b36e9dc48
+2025-11-27 19:38:14,519 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:38:14,519 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:38:14,743 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:38:14,762 - agent.nodes - INFO - Input classified as: QUESTION
+2025-11-27 19:38:14,821 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:38:14,879 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:38:15,511 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 19:38:30,094 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:38:30,100 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:38:30,100 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:38:30,231 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:38:30,258 - agent.nodes - INFO - Input classified as: 'GENERAL'
+2025-11-27 19:38:30,375 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:38:46,944 - agent.routes - INFO - Starting chat session: d316c371-7c36-4883-810f-c84b36e9dc48
+2025-11-27 19:38:46,954 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:38:46,954 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:38:47,087 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:38:47,102 - agent.nodes - INFO - Input classified as: QUESTION
+2025-11-27 19:38:47,230 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:01,695 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:39:01,710 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:39:01,711 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:39:01,877 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:01,892 - agent.nodes - INFO - Input classified as: PROGRESS
+2025-11-27 19:39:02,024 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:06,590 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:39:06,616 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:39:06,616 - agent.nodes - INFO - Manager detected phase: more_info
+2025-11-27 19:39:06,751 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:06,779 - agent.nodes - INFO - Input classified as: 'PROGRESS'
+2025-11-27 19:39:06,782 - agent.nodes - INFO - --- Node: plan_research ---
+2025-11-27 19:39:06,946 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:07,248 - agent.nodes - INFO - Research Plan: ["Based on the provided information, here's a prioritized list of 3-5 search angles/sub-questions:", '1. How do AI-powered tech gadgets like superWidget compare to traditional productivity tools in terms of user adoption and satisfaction among remote workers?', '2. What specific pain points or challenges do remote workers face in their daily productivity, and how can superWidget address those using its AI-powered features?', '3. What are the market trends and competitor analysis for AI-powered daily productivity tools, and how can superWidget differentiate itself to achieve a 20% sales increase?', '4. What are the primary user demographics and psychographics of remote workers, and how can superWidget tailor its marketing and sales strategies to effectively target this audience?', "5. How can superWidget's AI-powered features be optimized to provide measurable improvements in productivity and efficiency for remote workers, and what are the potential ROI benefits for users and the company?"]
+2025-11-27 19:39:07,251 - agent.nodes - INFO - --- Node: execute_research ---
+2025-11-27 19:39:07,251 - agent.nodes - INFO - Researching sub-question 1/6: Based on the provided information, here's a prioritized list of 3-5 search angles/sub-questions:
+2025-11-27 19:39:07,396 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:08,812 - ddgs.ddgs - INFO - Error in engine yandex: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22AI-powered%20tech%20gadgets%20for%20remote%20workers%20to%20boost%20daily%20productivity%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:39:09,694 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2025-11-27 19:39:10,021 - primp - INFO - response: https://yandex.com/search/site/?text=%22AI-powered+tech+gadgets+for+remote+workers+to+boost+daily+productivity%22&web=1&searchid=8267038 200
+2025-11-27 19:39:11,091 - primp - INFO - response: https://search.brave.com/search?q=%22AI-powered+tech+gadgets+for+remote+workers+to+boost+daily+productivity%22&source=web&tf=py 200
+2025-11-27 19:39:11,977 - primp - INFO - response: https://www.mojeek.com/search?q=%22AI-powered+tech+gadgets+for+remote+workers+to+boost+daily+productivity%22 403
+2025-11-27 19:39:11,980 - agent.nodes - INFO - Researching sub-question 2/6: 1. How do AI-powered tech gadgets like superWidget compare to traditional productivity tools in terms of user adoption and satisfaction among remote workers?
+2025-11-27 19:39:12,125 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:12,191 - ddgs.ddgs - INFO - Error in engine bing: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22AI-powered%20tech%20gadgets%20vs%20traditional%20productivity%20tools%20adoption%20rates%20and%20satisfaction%20among%20remote%20workers%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:39:12,404 - primp - INFO - response: https://www.bing.com/search?q=%22AI-powered+tech+gadgets+vs+traditional+productivity+tools+adoption+rates+and+satisfaction+among+remote+workers%22&pq=%22AI-powered+tech+gadgets+vs+traditional+productivity+tools+adoption+rates+and+satisfaction+among+remote+workers%22&cc=wt&filters=ex1%3A%22ez5_20054_20419%22 200
+2025-11-27 19:39:12,566 - primp - INFO - response: https://search.yahoo.com/search;_ylt=j2zEiyArCaqXHGUWhg1Xrvgr;_ylu=70kcamLU93pc6Sxy_8mfSGRFCo8U5ieXzh7hd6qFrFGvPCg?p=%22AI-powered+tech+gadgets+vs+traditional+productivity+tools+adoption+rates+and+satisfaction+among+remote+workers%22&btf=y 200
+2025-11-27 19:39:14,380 - agent.nodes - INFO - Researching sub-question 3/6: 2. What specific pain points or challenges do remote workers face in their daily productivity, and how can superWidget address those using its AI-powered features?
+2025-11-27 19:39:14,524 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:14,629 - ddgs.ddgs - INFO - Error in engine duckduckgo: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22Remote%20worker%20productivity%20challenges%20AI-powered%20solution%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:39:15,331 - primp - INFO - response: https://www.mojeek.com/search?q=%22Remote+worker+productivity+challenges+AI-powered+solution%22 403
+2025-11-27 19:39:15,478 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2025-11-27 19:39:16,511 - primp - INFO - response: https://search.brave.com/search?q=%22Remote+worker+productivity+challenges+AI-powered+solution%22&source=web&tf=py 200
+2025-11-27 19:39:17,682 - primp - INFO - response: https://yandex.com/search/site/?text=%22Remote+worker+productivity+challenges+AI-powered+solution%22&web=1&searchid=4211746 200
+2025-11-27 19:39:17,697 - agent.nodes - INFO - Researching sub-question 4/6: 3. What are the market trends and competitor analysis for AI-powered daily productivity tools, and how can superWidget differentiate itself to achieve a 20% sales increase?
+2025-11-27 19:39:17,841 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:17,970 - ddgs.ddgs - INFO - Error in engine yandex: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22AI-powered%20productivity%20tool%20market%20trends%20and%20competitor%20analysis%20for%20remote%20workers%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:39:18,164 - primp - INFO - response: https://www.bing.com/search?q=%22AI-powered+productivity+tool+market+trends+and+competitor+analysis+for+remote+workers%22&pq=%22AI-powered+productivity+tool+market+trends+and+competitor+analysis+for+remote+workers%22&cc=wt&filters=ex1%3A%22ez5_20054_20419%22 200
+2025-11-27 19:39:19,228 - primp - INFO - response: https://yandex.com/search/site/?text=%22AI-powered+productivity+tool+market+trends+and+competitor+analysis+for+remote+workers%22&web=1&searchid=5908229 200
+2025-11-27 19:39:20,503 - agent.nodes - INFO - Researching sub-question 5/6: 4. What are the primary user demographics and psychographics of remote workers, and how can superWidget tailor its marketing and sales strategies to effectively target this audience?
+2025-11-27 19:39:20,655 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:20,718 - ddgs.ddgs - INFO - Error in engine mojeek: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22remote%20worker%20demographics%20and%20psychographics%20targeting%20AI-powered%20tech%20gadgets%20for%20daily%20productivity%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:39:21,041 - primp - INFO - response: https://search.brave.com/search?q=%22remote+worker+demographics+and+psychographics+targeting+AI-powered+tech+gadgets+for+daily+productivity%22&source=web&tf=py 429
+2025-11-27 19:39:21,478 - primp - INFO - response: https://www.mojeek.com/search?q=%22remote+worker+demographics+and+psychographics+targeting+AI-powered+tech+gadgets+for+daily+productivity%22 403
+2025-11-27 19:39:22,663 - primp - INFO - response: https://yandex.com/search/site/?text=%22remote+worker+demographics+and+psychographics+targeting+AI-powered+tech+gadgets+for+daily+productivity%22&web=1&searchid=4070579 200
+2025-11-27 19:39:23,483 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2025-11-27 19:39:23,486 - agent.nodes - INFO - Researching sub-question 6/6: 5. How can superWidget's AI-powered features be optimized to provide measurable improvements in productivity and efficiency for remote workers, and what are the potential ROI benefits for users and the company?
+2025-11-27 19:39:23,628 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:23,725 - ddgs.ddgs - INFO - Error in engine yandex: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22Optimizing%20AI-powered%20productivity%20features%20for%20remote%20workers%20in%20tech%20gadgets%20to%20improve%20efficiency%20and%20calculate%20potential%20ROI%20for%20superWidget%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:39:24,034 - primp - INFO - response: https://search.brave.com/search?q=%22Optimizing+AI-powered+productivity+features+for+remote+workers+in+tech+gadgets+to+improve+efficiency+and+calculate+potential+ROI+for+superWidget%22&source=web&tf=py 429
+2025-11-27 19:39:24,956 - primp - INFO - response: https://yandex.com/search/site/?text=%22Optimizing+AI-powered+productivity+features+for+remote+workers+in+tech+gadgets+to+improve+efficiency+and+calculate+potential+ROI+for+superWidget%22&web=1&searchid=7746063 200
+2025-11-27 19:39:25,862 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2025-11-27 19:39:26,607 - primp - INFO - response: https://www.mojeek.com/search?q=%22Optimizing+AI-powered+productivity+features+for+remote+workers+in+tech+gadgets+to+improve+efficiency+and+calculate+potential+ROI+for+superWidget%22 403
+2025-11-27 19:39:26,638 - agent.nodes - INFO - --- Node: write_report ---
+2025-11-27 19:39:26,792 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:27,773 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:58,178 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:39:58,204 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:39:58,204 - agent.nodes - INFO - Manager detected phase: select_strategy
+2025-11-27 19:39:58,359 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:39:58,381 - agent.nodes - INFO - Input classified as: QUESTION
+2025-11-27 19:39:58,528 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:41:15,627 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:41:16,266 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 19:43:35,924 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:43:36,463 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:43:37,518 - watchfiles.main - INFO - 3 changes detected
+2025-11-27 19:44:16,452 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:44:16,917 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 19:47:17,015 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:47:17,596 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 19:47:44,961 - watchfiles.main - INFO - 3 changes detected
+2025-11-27 19:47:45,327 - watchfiles.main - INFO - 3 changes detected
+2025-11-27 19:48:10,428 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:48:11,786 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:48:14,497 - watchfiles.main - INFO - 3 changes detected
+2025-11-27 19:48:14,861 - watchfiles.main - INFO - 3 changes detected
+2025-11-27 19:48:35,414 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:48:35,428 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:48:35,428 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:48:35,737 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:48:35,762 - agent.nodes - INFO - Input classified as: QUESTION
+2025-11-27 19:48:35,888 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:49:09,245 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:49:09,252 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:49:09,252 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:49:09,397 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:49:09,415 - agent.nodes - INFO - Input classified as: QUESTION
+2025-11-27 19:49:09,544 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:49:33,222 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:49:33,264 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:49:33,265 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:49:33,411 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:49:33,424 - agent.nodes - INFO - Input classified as: PROGRESS
+2025-11-27 19:49:33,546 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:49:51,539 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:49:51,548 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:49:51,549 - agent.nodes - INFO - Manager detected phase: gather_product
+2025-11-27 19:49:51,691 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:49:51,702 - agent.nodes - INFO - Input classified as: PROGRESS
+2025-11-27 19:49:51,843 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:17,666 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:50:18,299 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 19:50:31,718 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:50:31,732 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:50:31,732 - agent.nodes - INFO - Manager detected phase: more_info
+2025-11-27 19:50:31,884 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:31,900 - agent.nodes - INFO - Input classified as: PROGRESS
+2025-11-27 19:50:31,916 - agent.nodes - INFO - --- Node: plan_research ---
+2025-11-27 19:50:32,052 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:32,353 - agent.nodes - INFO - Research Plan: ["Based on the provided information, here's a prioritized list of 3-5 search angles/sub-questions:", '1. How does AI-powered functionality in superWidget enhance daily productivity for remote workers, and what specific features contribute to this increase?', "2. What is the current market price for similar AI-powered smartwatches designed for remote workers, and how does superWidget's pricing strategy align with industry standards?", '3. What are the key performance indicators (KPIs) that superWidget aims to improve by 20%, and how will its AI-powered features support this goal?', '4. Can you identify any potential competitors or existing products that offer similar AI-powered features for remote workers, and what unique selling points can superWidget leverage to differentiate itself?', '5. What are the potential benefits and drawbacks of using an AI-powered smartwatch for daily productivity, particularly for remote workers, and how can superWidget address these concerns?']
+2025-11-27 19:50:32,356 - agent.nodes - INFO - --- Node: execute_research ---
+2025-11-27 19:50:32,356 - agent.nodes - INFO - Researching sub-question 1/6: Based on the provided information, here's a prioritized list of 3-5 search angles/sub-questions:
+2025-11-27 19:50:32,486 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:32,842 - ddgs.ddgs - INFO - Error in engine duckduckgo: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22tech%20gadget%20watches%20for%20remote%20workers%20with%20AI-powered%20features%20to%20improve%20productivity%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:50:33,023 - primp - INFO - response: https://www.bing.com/search?q=%22tech+gadget+watches+for+remote+workers+with+AI-powered+features+to+improve+productivity%22&pq=%22tech+gadget+watches+for+remote+workers+with+AI-powered+features+to+improve+productivity%22&cc=wt&filters=ex1%3A%22ez5_20054_20419%22 200
+2025-11-27 19:50:33,702 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2025-11-27 19:50:41,358 - agent.nodes - INFO - Researching sub-question 2/6: 1. How does AI-powered functionality in superWidget enhance daily productivity for remote workers, and what specific features contribute to this increase?
+2025-11-27 19:50:41,530 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:41,591 - ddgs.ddgs - INFO - Error in engine mojeek: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22AI-powered%20tech%20gadget%20productivity%20enhancement%20features%20for%20remote%20workers%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:50:42,304 - primp - INFO - response: https://www.mojeek.com/search?q=%22AI-powered+tech+gadget+productivity+enhancement+features+for+remote+workers%22 403
+2025-11-27 19:50:42,406 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2025-11-27 19:50:43,644 - primp - INFO - response: https://yandex.com/search/site/?text=%22AI-powered+tech+gadget+productivity+enhancement+features+for+remote+workers%22&web=1&searchid=6855609 200
+2025-11-27 19:50:44,624 - primp - INFO - response: https://search.brave.com/search?q=%22AI-powered+tech+gadget+productivity+enhancement+features+for+remote+workers%22&source=web&tf=py 200
+2025-11-27 19:50:44,648 - agent.nodes - INFO - Researching sub-question 3/6: 2. What is the current market price for similar AI-powered smartwatches designed for remote workers, and how does superWidget's pricing strategy align with industry standards?
+2025-11-27 19:50:44,786 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:44,844 - ddgs.ddgs - INFO - Error in engine bing: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22average%20market%20price%20of%20AI-powered%20smartwatches%20for%20remote%20workers%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:50:45,063 - primp - INFO - response: https://www.bing.com/search?q=%22average+market+price+of+AI-powered+smartwatches+for+remote+workers%22&pq=%22average+market+price+of+AI-powered+smartwatches+for+remote+workers%22&cc=wt&filters=ex1%3A%22ez5_20054_20419%22 200
+2025-11-27 19:50:46,046 - primp - INFO - response: https://yandex.com/search/site/?text=%22average+market+price+of+AI-powered+smartwatches+for+remote+workers%22&web=1&searchid=2844070 200
+2025-11-27 19:50:49,775 - agent.nodes - INFO - Filtering 2 results for relevance...
+2025-11-27 19:50:49,898 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:50,013 - agent.nodes - INFO - Filter response: None
+
+These search results seem to be about Excel and grammar rules, which are unrelated to the product "superWidget" or its usage, target audience, and key features.
+2025-11-27 19:50:50,061 - agent.nodes - INFO - Researching sub-question 4/6: 3. What are the key performance indicators (KPIs) that superWidget aims to improve by 20%, and how will its AI-powered features support this goal?
+2025-11-27 19:50:50,186 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:50,252 - ddgs.ddgs - INFO - Error in engine yandex: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22KPIs%20for%20AI-powered%20tech%20gadgets%20for%20remote%20workers%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:50:50,508 - primp - INFO - response: https://www.bing.com/search?q=%22KPIs+for+AI-powered+tech+gadgets+for+remote+workers%22&pq=%22KPIs+for+AI-powered+tech+gadgets+for+remote+workers%22&cc=wt&filters=ex1%3A%22ez5_20054_20419%22 200
+2025-11-27 19:50:51,462 - primp - INFO - response: https://yandex.com/search/site/?text=%22KPIs+for+AI-powered+tech+gadgets+for+remote+workers%22&web=1&searchid=3635783 200
+2025-11-27 19:50:52,725 - agent.nodes - INFO - Researching sub-question 5/6: 4. Can you identify any potential competitors or existing products that offer similar AI-powered features for remote workers, and what unique selling points can superWidget leverage to differentiate itself?
+2025-11-27 19:50:52,856 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:52,924 - ddgs.ddgs - INFO - Error in engine mojeek: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22AI-powered%20smartwatches%20for%20remote%20workers%20market%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:50:53,296 - primp - INFO - response: https://search.yahoo.com/search;_ylt=Sk4lHIPt0gRCSWSw8GCvS5E_;_ylu=1FZ5DjyuJ5IhOZKYWT3eXUWoiSsQoVwj2iWpoQ-H7FI0-Xo?p=%22AI-powered+smartwatches+for+remote+workers+market%22&btf=y 200
+2025-11-27 19:50:53,613 - primp - INFO - response: https://www.mojeek.com/search?q=%22AI-powered+smartwatches+for+remote+workers+market%22 403
+2025-11-27 19:50:54,954 - primp - INFO - response: https://yandex.com/search/site/?text=%22AI-powered+smartwatches+for+remote+workers+market%22&web=1&searchid=7389246 200
+2025-11-27 19:50:55,880 - primp - INFO - response: https://search.brave.com/search?q=%22AI-powered+smartwatches+for+remote+workers+market%22&source=web&tf=py 200
+2025-11-27 19:50:57,274 - agent.nodes - INFO - Filtering 1 results for relevance...
+2025-11-27 19:50:57,398 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:57,416 - agent.nodes - INFO - Filter response: 0
+2025-11-27 19:50:57,429 - agent.nodes - INFO - Researching sub-question 6/6: 5. What are the potential benefits and drawbacks of using an AI-powered smartwatch for daily productivity, particularly for remote workers, and how can superWidget address these concerns?
+2025-11-27 19:50:57,563 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:50:57,620 - ddgs.ddgs - INFO - Error in engine yahoo: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22AI-powered%20smartwatch%20benefits%20and%20drawbacks%20for%20remote%20workers%20productivity%22): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:50:57,805 - primp - INFO - response: https://www.bing.com/search?q=%22AI-powered+smartwatch+benefits+and+drawbacks+for+remote+workers+productivity%22&pq=%22AI-powered+smartwatch+benefits+and+drawbacks+for+remote+workers+productivity%22&cc=wt&filters=ex1%3A%22ez5_20054_20419%22 200
+2025-11-27 19:50:58,246 - primp - INFO - response: https://search.yahoo.com/search;_ylt=f-Go2V3T4k0FVplE_dzL5BpI;_ylu=ODtajqxsOjTZ6KmVTsl6JJ55pfyCyryfq-DUK1fm0i0Hvpw?p=%22AI-powered+smartwatch+benefits+and+drawbacks+for+remote+workers+productivity%22&btf=y 200
+2025-11-27 19:50:59,651 - agent.nodes - INFO - --- Node: write_report ---
+2025-11-27 19:50:59,783 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:51:01,962 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:52:32,978 - agent.routes - INFO - Starting chat session: 64d3d577-5eb2-4dc7-877a-43dff71592ec
+2025-11-27 19:52:32,987 - agent.nodes - INFO - --- Node: manager_node ---
+2025-11-27 19:52:32,987 - agent.nodes - INFO - Manager detected phase: select_strategy
+2025-11-27 19:52:33,122 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:52:33,139 - agent.nodes - INFO - Input classified as: PROGRESS
+2025-11-27 19:52:33,150 - agent.nodes - INFO - --- Node: guide_strategy ---
+2025-11-27 19:52:33,273 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:52:33,339 - agent.nodes - INFO - Searching for guide: site:influencermarketinghub.com OR site:shopify.com superWidget ai-powered tech watch daily productivity guide for remote workers
+2025-11-27 19:52:33,364 - ddgs.ddgs - INFO - Error in engine yahoo: DDGSException("RuntimeError: RuntimeError('error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Ainfluencermarketinghub.com%20OR%20site%3Ashopify.com%20superWidget%20ai-powered%20tech%20watch%20daily%20productivity%20guide%20for%20remote%20workers): client error (Connect)\\n\\nCaused by:\\n    0: client error (Connect)\\n    1: dns error: failed to lookup address information: nodename nor servname provided, or not known\\n    2: failed to lookup address information: nodename nor servname provided, or not known')")
+2025-11-27 19:52:33,579 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainfluencermarketinghub.com+OR+site%3Ashopify.com+superWidget+ai-powered+tech+watch+daily+productivity+guide+for+remote+workers&pq=site%3Ainfluencermarketinghub.com+OR+site%3Ashopify.com+superWidget+ai-powered+tech+watch+daily+productivity+guide+for+remote+workers&cc=wt&filters=ex1%3A%22ez5_20054_20419%22 200
+2025-11-27 19:52:33,797 - primp - INFO - response: https://search.yahoo.com/search;_ylt=2sMndD_CFWTQSD_bV5x_cC5w;_ylu=Q4bmSvMhRMTMk3bXUh2wSYVciqLIEQqSdFY6tDvFYcgH_2I?p=site%3Ainfluencermarketinghub.com+OR+site%3Ashopify.com+superWidget+ai-powered+tech+watch+daily+productivity+guide+for+remote+workers&btf=y 200
+2025-11-27 19:52:34,592 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 19:52:35,576 - agent.nodes - INFO - Guide generated.
+2025-11-27 19:53:18,379 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:53:18,955 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 19:56:19,045 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:56:19,572 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 19:59:19,643 - watchfiles.main - INFO - 1 change detected
+2025-11-27 19:59:20,233 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 20:00:39,979 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:00:42,029 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:00:42,533 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:00:43,539 - watchfiles.main - INFO - 6 changes detected
+2025-11-27 20:02:20,255 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:02:20,839 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 20:02:43,031 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:03:20,672 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:03:36,111 - watchfiles.main - INFO - 2 changes detected
+2025-11-27 20:04:11,867 - watchfiles.main - INFO - 2 changes detected
+2025-11-27 20:05:20,920 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:05:21,447 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 20:05:41,261 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:05:42,328 - watchfiles.main - INFO - 3 changes detected
+2025-11-27 20:05:42,701 - watchfiles.main - INFO - 3 changes detected
+2025-11-27 20:08:21,529 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:08:22,109 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 20:11:22,149 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:11:22,672 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 20:14:22,731 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:14:23,298 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 20:14:55,872 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:14:58,999 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:15:50,364 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:17:23,371 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:17:23,887 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 20:20:23,969 - watchfiles.main - INFO - 1 change detected
+2025-11-27 20:20:24,489 - watchfiles.main - INFO - 5 changes detected
+2025-11-27 20:21:38,217 - watchfiles.main - INFO - 1 change detected

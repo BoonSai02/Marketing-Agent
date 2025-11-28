@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import ChatMessage from './ChatMessage';
 import './MessageList.css';
 
-const MessageList = ({ messages, loading }) => {
+const MessageList = ({ messages, loading, onSend }) => {
     const messagesEndRef = useRef(null);
 
     const scrollToBottom = () => {
@@ -11,7 +11,7 @@ const MessageList = ({ messages, loading }) => {
 
     useEffect(() => {
         scrollToBottom();
-    }, [messages]);
+    }, [messages, loading]);
 
     return (
         <div className="message-list">
@@ -26,25 +26,10 @@ const MessageList = ({ messages, loading }) => {
             {messages.map((msg, index) => (
                 <ChatMessage
                     key={index}
-                    message={msg.content}
-                    isUser={msg.isUser}
+                    message={msg}
+                    onSend={onSend}
                 />
             ))}
-
-            {loading && (
-                <div className="chat-message ai-message fade-in">
-                    <div className="message-avatar">
-                        <div className="avatar-ai">✨</div>
-                    </div>
-                    <div className="message-content">
-                        <div className="typing-indicator">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-            )}
 
             <div ref={messagesEndRef} />
         </div>

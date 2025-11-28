@@ -21,4 +21,4 @@ redis
 aiohttp
 loguru
 tqdm
-duckduckgo-search
+langchain-tavily

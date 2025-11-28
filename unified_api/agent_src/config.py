@@ -3,10 +3,15 @@ import os
 import redis
 from dotenv import load_dotenv
 
-load_dotenv()
+from pathlib import Path
+
+# Load .env from project root (2 levels up from this file)
+env_path = Path(__file__).resolve().parent.parent.parent / '.env'
+load_dotenv(dotenv_path=env_path)
 
 # --- LLM Configuration ---
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 
 # --- Checkpointer Configuration ---
 # Use Redis if USE_REDIS is set to true, otherwise use in-memory
